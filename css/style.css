@@ -1,11 +1,23 @@
-*{
-	font-family: 'Poppins';
+:root{
+	--logo-color: #181E4B;
+	--title-color: #14183E;
+	--text-color: #5E6282;
+	--logo-subtitle-color: #DF6951;
+	--button-bg-color: #F1A501;
+	--title-card-color: #1E1D4C;
+	--button-gradiend-start: #FF946D;
+	--button-gradiend-end: #FF7D68;
+
+}
+body{
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 }
-.title{
-	font-family: 'Volkhov';
+.title-section{
+	font-family: 'Volkhov',sans-serif;
 	font-weight: 700;
 }
 .title__hero{
 	font-size: 84px;
+	color: var(--logo-color);
 }
