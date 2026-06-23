@@ -9,9 +9,26 @@
 	--button-gradiend-end: #FF7D68;
 
 }
+
 body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
+}
+.wrapper{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+[class*="__container"]{
+	max-width: 1410px;
+	padding-inline: 15px;	
+	margin: 0 auto;
+}
+.header-block__container{
+	padding-block-start: 50px;
 }
 .title-section{
 	font-family: 'Volkhov',sans-serif;
@@ -20,4 +37,36 @@ body{
 .title__hero{
 	font-size: 84px;
 	color: var(--logo-color);
+}
+.header-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap:150px;
+	
+}
+.logo__body{
+	min-width: 90px;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	gap:20px;
+	flex-wrap: wrap;
+}
+.menu__items {
+	font-family: 'Google Sans';
+	font-size: 17px;
+	height: 40px;
+	margin-bottom: -9px;
+	padding-top: 10px;
+	padding-inline: 5px;
+	width: 112px;
+	border-radius: 5px;
+	text-align: center;
+	transition: box-shadow 0.3s;
+}
+.menu__items:hover {
+	border: 1px solid #212832;
+	box-shadow: 2px 2px 5px var(--text-color);
 }
