@@ -4,6 +4,7 @@
 	font-weight: 700;
 	font-size: 42px;
 	letter-spacing: -4px;
+	min-width: 120px;
 }
 .logo>span{
 	position: relative;
@@ -32,7 +33,6 @@
 
 }
 .cta-button__button{
-color: white;
 	font-family: 'Google Sans';
 	font-weight: 500;
 	font-size: 18px;
