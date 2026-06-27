@@ -38,6 +38,8 @@ body{
 }
 [class*="__title-section"]{
 	font-family: 'Volkhov',sans-serif;
+	color: var(--title-color);
+	font-size: 50px;
 }
 .header-block {
 	display: flex;
@@ -150,6 +152,7 @@ body{
 	font-weight: 600;
 	font-size: 18px;
 	margin-bottom: 8px;
+	color: var(--text-color);
 }
 .category__title-section {
 	text-align: center;
@@ -231,4 +234,63 @@ body{
 	font-weight: 500;
 	font-size: 16px;
 	color: var(--text-color);
+}
+
+/*Destinations section*/
+.destinations__subtitle {
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 8px;
+	color: var(--text-color);
+	margin-top: 120px;
+}
+.destinations__title-section{
+	text-align: center;
+}
+.destinations {
+}
+
+.destinations__items {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		gap: 36px;
+		margin-top: 60px;
+}
+.destinations__cards{
+	flex: 0 0 29%;
+	border-radius:24px;
+	box-shadow: 3px 4px 10px var(--text-color);
+	
+}
+.destinations__image {
+		
+}
+.destinations__image img{
+	object-fit: cover;
+	border-top-left-radius: 26px;
+	border-top-right-radius: 26px;
+	width: 100%;
+	aspect-ratio: 1;
+	
+}
+.destinations__item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 26px 21px 15px 21px;
+	color: var(--text-color);
+	font-size: 18px;
+	line-height: 124.5%;
+}
+.destinations_location {
+}
+.destinations__costs {
+}
+.destinations__time-trip {
+	padding: 0 0 40px 20px;
+	color: var(--text-color);
+	font-size: 16px;
+	line-height: 124.5%;
 }
