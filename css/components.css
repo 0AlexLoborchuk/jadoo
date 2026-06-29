@@ -78,12 +78,12 @@
 	align-items: center;
 	justify-content: center;
 }
-.choose-destination-icon__bg-color{
+.choose-destination-icon__bg-color img{
 	background-color: #F0BB1F;
 }
-.make-payment__color{
+.make-payment__color img{
 	background-color: #F15A2B;
 }
-.reach-airport__bg-color{
+.reach-airport__bg-color img{
 	background-color: #006380;
 }
