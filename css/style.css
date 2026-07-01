@@ -294,3 +294,111 @@ body{
 	font-size: 16px;
 	line-height: 124.5%;
 }
+
+/*Section Easy and fast*/
+.book-trip {
+}
+.book-trip__subtitle {
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--text-color);
+	margin-top: 180px;
+}
+.book-trip__body {
+	display: flex;
+	flex-direction: row;
+	gap:10px;
+	justify-content: space-around;
+	
+}
+.book-trip__list{
+	flex-basis: 43.9%;
+}
+.book-trip__title-section {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	line-height: 62px;
+}
+.book-trip__item {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	gap: 20px;
+
+}
+.book-trip__item:not(:last-child) {
+	padding-bottom: 48px;
+}
+.book-trip__card > h4,p{
+	font-size: 16px;
+	line-height: 124.5%;
+	color: var(--text-color);
+}
+.book-trip__title {
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.book-trip__description {
+	font-weight: 200;
+	
+}
+.book-trip__card-image {
+
+	flex-basis: 30.5%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	padding: 25px;
+	border-radius: 26px;
+	box-shadow: 4px -5px 150px #59B1E6;
+}
+.card-image {
+	
+}
+.card-image__title {
+	margin-top: 26px;
+	margin-bottom: 13px;
+	font-size: 18px;
+	line-height: 124.5%;
+	letter-spacing: 1.5%;
+}
+.card-image__description {
+	display: flex;
+	flex-direction: row;
+	gap:10px;
+}
+.card-image__date {
+	font-size: 16px;
+	line-height: 124.5%;
+	letter-spacing: -0.5%;
+}
+.card-image__author {
+	font-size: 16px;
+	line-height: 124.5%;
+	letter-spacing: -0.5%;
+}
+.card-image__icons {
+	display: flex;
+	flex-direction: row;
+	gap:10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.card-image__icon {
+}
+.card-image__likes {
+	display: flex;
+	flex-direction: row;
+	gap:10px;
+	justify-content: space-between;
+}
+.card-image__count {
+	display: flex;
+	flex-direction: row;
+	gap:10px;
+}
+.card-image__count-people {
+	font-size: 16px;
+	line-height: 124.5%;
+	letter-spacing: -2%;
+}
